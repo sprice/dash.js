@@ -4,8 +4,7 @@
   "description": "A reference client implementation for the playback of MPEG DASH via Javascript and compliant browsers.",
   "main": "dist/dash.all.js",
   "scripts": {
-    "test": "npm install && ./node_modules/.bin/grunt",
-    "postinstall": "./node_modules/.bin/grunt uglify"
+    "test": "npm install && ./node_modules/.bin/grunt"
   },
   "devDependencies": {
     "grunt": "~0.4.2",
