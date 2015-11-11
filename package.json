@@ -5,7 +5,7 @@
   "main": "dist/dash.all.js",
   "scripts": {
     "test": "npm install && ./node_modules/.bin/grunt",
-    "postinstall": "./node_modules/.bin/grunt uglify"
+    "build": "./node_modules/.bin/grunt uglify"
   },
   "devDependencies": {
     "grunt": "~0.4.2",
